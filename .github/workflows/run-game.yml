@@ -2,7 +2,7 @@ name: Run Game
 
 on:
   schedule:
-    - cron: "40 1 * * *"
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
