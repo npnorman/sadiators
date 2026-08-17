@@ -33,7 +33,7 @@ jobs:
       id: run-security-tests
       if: always()
       run: |
-        pytest main.py
+        python main.py
 
     # Commit and Push Changes
     - name: Commit and Push Changes
